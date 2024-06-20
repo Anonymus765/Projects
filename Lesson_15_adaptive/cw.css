@@ -1,0 +1,103 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+img
+{
+    width: 20%;
+    height: 100%;
+    float: left;
+    margin-right: 5%;
+    display: inline-block;
+}
+main
+{
+    height: 100px;
+    margin: auto;
+    padding: 10px;
+    width: 80%;
+    margin-top: 500px;
+    box-shadow: 0px 0px 46px 3px rgba(0,0,0,0.75);
+    border-radius: 8px 8px 8px 8px;
+    max-width: 1500px;
+    min-width: 600px;
+}
+#proggres
+{
+    border: 1px solid darkblue;
+    border-style: groove;
+    width: 50%;
+    height: 23px;
+    float: left;
+    display: inline-block;
+}
+#proggres > div
+{
+    display: inline-block;
+    float: left;
+}
+#done
+{
+    padding-left: 1%;
+    background-color: lightblue;
+    height: 100%;
+    text-align: left;
+    width: 39%;
+}
+#notdone
+{
+    text-align: right;
+    float: right;
+    width: 59%;
+    height: 100%;
+    padding-right: 1%;
+}
+button
+{
+    display: inline-block;
+    float: left;
+    width: 20%;
+    margin-left: 4%;
+    height: 23px;
+    background-color: darkblue;
+    color: white;
+}
+@media (max-width: 600px    )
+{
+    div, img, #proggres
+    {
+        float: none;
+        display: block;
+    }
+    main, #info
+    {
+        width: 300px;
+    }
+    main
+    {
+        height: 275px;
+        min-width: 200px;
+        margin: auto;
+    }
+    img
+    {
+        width: 100%;
+        height: 30%;
+    }
+    #proggres
+    {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 0.75em;
+    }
+    button
+    {
+        position: relative;
+        width: 100%;
+        top: 125px;
+        margin-left: 0px;
+    }
+}
